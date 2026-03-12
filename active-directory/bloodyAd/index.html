@@ -14,7 +14,7 @@
         <link rel="prev" href="../bloodhound/">
       
       
-        <link rel="next" href="../getting-a-shell/">
+        <link rel="next" href="../getting-computers/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>bloodyAd - Manatliq CheatSheets</title>
+        <title>BloodyAd - Manatliq CheatSheets</title>
       
     
     
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              bloodyAd
+              BloodyAd
             
           </span>
         </div>
@@ -215,7 +215,7 @@
   <span class="md-ellipsis">
     
   
-    Welcome to MkDocs
+    Home
   
 
     
@@ -260,7 +260,7 @@
   <span class="md-ellipsis">
     
   
-    Active directory
+    Active Directory
   
 
     
@@ -276,11 +276,67 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Active directory
+    Active Directory
   
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../transferring-file/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Transferring Files
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-a-shell/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reverse Shell
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -331,7 +387,7 @@
   <span class="md-ellipsis">
     
   
-    bloodyAd
+    BloodyAd
   
 
     
@@ -349,7 +405,7 @@
   <span class="md-ellipsis">
     
   
-    bloodyAd
+    BloodyAd
   
 
     
@@ -425,6 +481,67 @@
 
               
             
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Powershell
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Powershell
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
               
                 
   
@@ -432,14 +549,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../getting-a-shell/" class="md-nav__link">
+      <a href="../getting-computers/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Getting a shell
+    Get Computers
   
 
     
@@ -460,14 +577,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../transfering-file/" class="md-nav__link">
+      <a href="../deleted-users/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Transfering file
+    Retrieve Deleted Users
   
 
     
@@ -573,18 +690,18 @@
 
 
 
-  <h1>bloodyAd</h1>
+  <h1>BloodyAd</h1>
 
-<h3 id="retrieving-user-information">Retrieving User Information</h3>
+<h2 id="retrieving-user-information">Retrieving User Information</h2>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>bloodyAD<span class="w"> </span>--host<span class="w"> </span><span class="nv">$dc</span><span class="w"> </span>-d<span class="w"> </span><span class="nv">$domain</span><span class="w"> </span>-u<span class="w"> </span><span class="nv">$username</span><span class="w"> </span>-p<span class="w"> </span><span class="nv">$password</span><span class="w"> </span>get<span class="w"> </span>object<span class="w"> </span><span class="nv">$target_username</span>
 </span></code></pre></div>
-<h3 id="adding-user-to-group">Adding user to group</h3>
+<h2 id="adding-user-to-group">Adding user to group</h2>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>bloodyAD<span class="w"> </span>--host<span class="w"> </span><span class="s2">&quot;10.10.11.70&quot;</span><span class="w"> </span>-d<span class="w"> </span><span class="s2">&quot;local.htb&quot;</span><span class="w"> </span>-u<span class="w"> </span><span class="s2">&quot;john&quot;</span><span class="w"> </span>-p<span class="w"> </span><span class="s1">&#39;password!&#39;</span><span class="w"> </span>add<span class="w"> </span>groupMember<span class="w"> </span><span class="s2">&quot;DEVELOPERS&quot;</span><span class="w"> </span><span class="s2">&quot;john&quot;</span>
 </span></code></pre></div>
-<h3 id="setting-owner">Setting owner</h3>
+<h2 id="setting-owner">Setting owner</h2>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>bloodyAD<span class="w"> </span>--host<span class="w"> </span><span class="s2">&quot;10.10.11.10&quot;</span><span class="w"> </span>-d<span class="w"> </span><span class="s2">&quot;local.htb&quot;</span><span class="w"> </span>-u<span class="w"> </span><span class="s2">&quot;IT-Backup</span>$<span class="s2">&quot;</span><span class="w"> </span>-p<span class="w"> </span><span class="s2">&quot;:4de830d1d58c14e241aff55f82ecdba1&quot;</span><span class="w"> </span><span class="nb">set</span><span class="w"> </span>owner<span class="w"> </span>SUPPORT_SERVICES<span class="w"> </span>IT-Backup$
 </span></code></pre></div>
-<h3 id="changing-password">Changing password</h3>
+<h2 id="changing-password">Changing password</h2>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>bloodyAD<span class="w"> </span>--host<span class="w"> </span><span class="s1">&#39;10.10.11.10&#39;</span><span class="w"> </span>-d<span class="w"> </span><span class="s2">&quot;local.htb&quot;</span><span class="w"> </span>-u<span class="w"> </span><span class="s2">&quot;john&quot;</span><span class="w"> </span>-p<span class="w"> </span><span class="s1">&#39;password!&#39;</span><span class="w"> </span><span class="nb">set</span><span class="w"> </span>password<span class="w"> </span><span class="s1">&#39;emily&#39;</span><span class="w"> </span><span class="s1">&#39;P@ssw0rd!&#39;</span>
 </span></code></pre></div>
 

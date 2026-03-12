@@ -11,7 +11,7 @@
         <link rel="canonical" href="https://manatliqhackers.github.io/active-directory/bloodhound/">
       
       
-        <link rel="prev" href="../..">
+        <link rel="prev" href="../getting-a-shell/">
       
       
         <link rel="next" href="../bloodyAd/">
@@ -215,7 +215,7 @@
   <span class="md-ellipsis">
     
   
-    Welcome to MkDocs
+    Home
   
 
     
@@ -260,7 +260,7 @@
   <span class="md-ellipsis">
     
   
-    Active directory
+    Active Directory
   
 
     
@@ -276,11 +276,67 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Active directory
+    Active Directory
   
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../transferring-file/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Transferring Files
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-a-shell/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reverse Shell
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -400,7 +456,96 @@
   <span class="md-ellipsis">
     
   
-    bloodyAd
+    BloodyAd
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Powershell
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Powershell
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-computers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Get Computers
   
 
     
@@ -421,42 +566,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../getting-a-shell/" class="md-nav__link">
+      <a href="../deleted-users/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Getting a shell
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../transfering-file/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Transfering file
+    Retrieve Deleted Users
   
 
     
@@ -553,13 +670,13 @@
 
   <h1>Bloodhound</h1>
 
-<h3 id="netexec">netexec</h3>
+<h2 id="netexec">netexec</h2>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>nxc<span class="w"> </span>ldap<span class="w"> </span><span class="m">10</span>.10.11.10<span class="w"> </span>-u<span class="w"> </span><span class="s1">&#39;john&#39;</span><span class="w"> </span>-p<span class="w"> </span><span class="s1">&#39;password!&#39;</span><span class="w"> </span>--bloodhound<span class="w"> </span>--collection<span class="w"> </span>ALL<span class="w"> </span>--dns-server<span class="w"> </span><span class="m">10</span>.10.11.10
 </span></code></pre></div>
-<h3 id="rousthound">rousthound</h3>
+<h2 id="rousthound">rousthound</h2>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>rusthound<span class="w"> </span>-d<span class="w"> </span>local.htb<span class="w"> </span>-u<span class="w"> </span><span class="s1">&#39;john&#39;</span><span class="w"> </span>-p<span class="w"> </span><span class="s1">&#39;password!&#39;</span><span class="w"> </span>-f<span class="w"> </span><span class="s2">&quot;DC01.local.htb&quot;</span><span class="w"> </span>-z
 </span></code></pre></div>
-<h3 id="bloodhound-python">bloodhound-python</h3>
+<h2 id="bloodhound-python">bloodhound-python</h2>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>bloodhound-python<span class="w"> </span>-u<span class="w"> </span><span class="s1">&#39;john&#39;</span><span class="w"> </span>-p<span class="w"> </span><span class="s1">&#39;password!&#39;</span><span class="w"> </span>-d<span class="w"> </span>local.htb<span class="w"> </span>--collectionmethod<span class="w"> </span>All<span class="w"> </span>--zip
 </span></code></pre></div>
 
