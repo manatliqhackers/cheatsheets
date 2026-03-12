@@ -16,15 +16,16 @@ theme:
     - search.highlight
     - content.code.copy    # adds copy button to code blocks
 
-# nav:
-#   - Home: index.md
-#   - Active Directory:
-#     - Relay Attacks: active-directory/relay-attacks.md
-#     - Modifying Users: active-directory/modifying-users.md
-    # - Transferring Files: active-directory/transferring-files.md
-    # - Reverse Shell: active-directory/reverse-shell.md
-  # - Docker: docker/index.md
-  # - Linux: linux/index.md
+nav:
+  - Home: index.md
+  - Active Directory:
+    - Transferring Files: active-directory/transferring-file.md
+    - Reverse Shell: active-directory/getting-a-shell.md
+    - Bloodhound: active-directory/bloodhound.md
+    - BloodyAd: active-directory/bloodyAd.md
+  - Powershell:
+    - Get Computers: active-directory/getting-computers.md
+    - Retrieve Deleted Users: active-directory/deleted-users.md
 
 markdown_extensions:
   - attr_list
