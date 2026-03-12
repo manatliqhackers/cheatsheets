@@ -1,0 +1,48 @@
+site_name: Manatliq CheatSheets
+site_url: https://manatliqhackers.github.io/
+
+theme:
+  name: material
+  icon:
+    logo: fontawesome/solid/manat-sign
+  favicon: assets/favicon.ico
+  palette:
+    scheme: slate          # dark mode
+    primary: black
+    accent: red
+  features:
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+    - content.code.copy    # adds copy button to code blocks
+
+# nav:
+#   - Home: index.md
+#   - Active Directory:
+#     - Relay Attacks: active-directory/relay-attacks.md
+#     - Modifying Users: active-directory/modifying-users.md
+    # - Transferring Files: active-directory/transferring-files.md
+    # - Reverse Shell: active-directory/reverse-shell.md
+  # - Docker: docker/index.md
+  # - Linux: linux/index.md
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+
+
+extra_css:
+  - stylesheets/extra.css
